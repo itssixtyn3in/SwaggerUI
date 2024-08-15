@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: You must login before continuing 😱 !
+  title: You must login before you can continuing 😱 !
   description: |
     **Note:** You must be logged in to access these resources. For more details, visit our [documentation](https://www.collectingflags.com/redirect.php)
     <button onclick="prompt()">Click me</button>
