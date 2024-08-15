@@ -1,16 +1,16 @@
 {
-    "url": "https://jumpy-floor.surge.sh/test2.yaml",
+    "url": "https://raw.githubusercontent.com/itssixtyn3in/SwaggerUI/main/inputs.yaml",
     "urls": [
         {
             "url": "https://raw.githubusercontent.com/itssixtyn3in/SwaggerUI/main/inputs.yaml",
             "name": "Foo"
         },
         {
-            "url": "search-ms://query=Test",
+            "url": "https://raw.githubusercontent.com/itssixtyn3in/SwaggerUI/main/inputs.yaml",
             "name": "Search"
         },
         {
-            "url": "https://anotherexample.com/api/docs.yaml",
+            "url": "https://raw.githubusercontent.com/itssixtyn3in/SwaggerUI/main/inputs.yaml",
             "name": "Baz"
         }
     ]
