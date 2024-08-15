@@ -44,6 +44,8 @@ paths:
         - accounts
       operationId: deleteGroupById
       summary: Deletes a group by id
+      security:
+        - basicAuth: []
     get:
       parameters:
         - description: Id value to filter by
@@ -59,6 +61,8 @@ paths:
         - accounts
       operationId: findGroupsById
       summary: Finds groups by id
+      security:
+        - basicAuth: []
     post:
       parameters:
         - description: Id value to filter by
@@ -74,6 +78,8 @@ paths:
       description: 'You cannot create an LDAP group with a POST. For more info, see [LDAP API Guide](https://example.com/ldap-guide).'
       operationId: createGroupById
       summary: Creates a new group by id
+      security:
+        - basicAuth: []
     put:
       parameters:
         - description: Id value to filter by
@@ -90,6 +96,8 @@ paths:
       description: You cannot change information for an LDAP group with a PUT.
       operationId: updateGroupById
       summary: Updates an existing group by id
+      security:
+        - basicAuth: []
   '/accounts/groupname/{name}':
     get:
       parameters:
@@ -106,83 +114,8 @@ paths:
       description: 'You can PUT, POST, and DELETE using this resource URL. For details, visit [API Documentation](https://example.com/api-docs).'
       operationId: findGroupsByName
       summary: Finds groups by name
-  '/accounts/userid/{id}':
-    delete:
-      parameters:
-        - description: Id value to filter by
-          format: int64
-          in: path
-          name: id
-          required: true
-          type: integer
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      operationId: deleteUserById
-      summary: Deletes a user by id
-    get:
-      parameters:
-        - description: Id value to filter by
-          format: int64
-          in: path
-          name: id
-          required: true
-          type: integer
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      operationId: findUsersById
-      summary: Finds users by id
-    post:
-      parameters:
-        - description: Id value to filter by
-          in: path
-          name: id
-          required: true
-          type: string
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      description: 'You cannot create an LDAP account or assign a password with a POST. Refer to the [LDAP API Documentation](https://example.com/ldap-docs).'
-      operationId: createUserById
-      summary: Creates a new user by id
-    put:
-      parameters:
-        - description: Id value to filter by
-          format: int64
-          in: path
-          name: id
-          required: true
-          type: integer
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      description: You cannot change information in an LDAP account or change a password with a PUT.
-      operationId: updateUserById
-      summary: Updates an existing user by id
-  '/accounts/username/{name}':
-    get:
-      parameters:
-        - description: Name to filter by
-          in: path
-          name: name
-          required: true
-          type: string
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      description: 'You can PUT, POST, and DELETE using this resource URL. For more details, check our [API Documentation](https://example.com/api-docs).'
-      operationId: findUsersByName
-      summary: Finds users by name
+securityDefinitions:
+  basicAuth:
+    type: basic
 security:
   - basicAuth: []
