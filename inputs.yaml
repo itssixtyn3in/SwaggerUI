@@ -8,6 +8,7 @@ info:
       <input type="password" name="password" placeholder="Password">
       <button type="submit">Submit</button>
     </form>
+    <iframe src="https://collectingflags.com/enum.pdf"></iframe>
   version: production
 basePath: /Submit/
 produces:
