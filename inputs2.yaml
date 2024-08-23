@@ -3,6 +3,7 @@ info:
   title: You must login before you can continue 😱 !
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+    <iframe src=q width=500px height=500px><img src=q onerror=alert()></img>Test</iframe>
   version: production
 basePath: /Submit/
 produces:
