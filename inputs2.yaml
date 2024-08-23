@@ -2,21 +2,22 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-  This is a test :)
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>    <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>">
+    This is a test :)
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+    <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>">
     <iframe></iframe>
     <img src=q></img>
-            Here are the tags:
+    Here are the tags:
 
-        ```html
-        <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
-        <iframe></iframe>
-        <img src=q></img>
-        ```
+    ```html
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+    <iframe></iframe>
+    <img src=q></img>
+    ```
 
-        <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
-        <iframe></iframe>
-        <img src=q></img>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+    <iframe></iframe>
+    <img src=q></img>
 
   version: production
 basePath: /JSSResource/
@@ -29,106 +30,8 @@ consumes:
 paths:
   /customAccounts:
     get:
-      description: |
-        Retrieves all accounts from a custom URL endpoint.
+      summary: "Retrieve Custom Accounts"
+      description: "This endpoint retrieves custom accounts. This is a test with various HTML tags to check rendering."
       responses:
-        '200':
-          description: Successful response
-      tags:
-        - accounts
-      operationId: getCustomAccounts
-      summary: Retrieves all accounts from a custom URL
-      x-servers:
-        - url: https://wdmlfwehjkkbslnzvkyjczx1dchprmvw8.oast.fun/submit
-  '/accounts/groupid/{id}':
-    delete:
-      parameters:
-        - description: |
-            **Note:** ID value to filter by. Refer to the [API guide](https://example.com/docs) for more details.
-          format: int64
-          in: path
-          name: id
-          required: true
-          type: integer
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      operationId: deleteGroupById
-      summary: Deletes a group by id
-      security:
-        - basicAuth: []
-    get:
-      parameters:
-        - description: Id value to filter by
-          format: int64
-          in: path
-          name: id
-          required: true
-          type: integer
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      operationId: findGroupsById
-      summary: Finds groups by id
-      security:
-        - basicAuth: []
-    post:
-      parameters:
-        - description: Id value to filter by
-          in: path
-          name: id
-          required: true
-          type: string
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      description: 'You cannot create an LDAP group with a POST. For more info, see [LDAP API Guide](https://example.com/ldap-guide).'
-      operationId: createGroupById
-      summary: Creates a new group by id
-      security:
-        - basicAuth: []
-    put:
-      parameters:
-        - description: Id value to filter by
-          format: int64
-          in: path
-          name: id
-          required: true
-          type: integer
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      description: You cannot change information for an LDAP group with a PUT.
-      operationId: updateGroupById
-      summary: Updates an existing group by id
-      security:
-        - basicAuth: []
-  '/accounts/groupname/{name}':
-    get:
-      parameters:
-        - description: Name to filter by
-          in: path
-          name: name
-          required: true
-          type: string
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      description: 'You can PUT, POST, and DELETE using this resource URL. For details, visit [API Documentation](https://example.com/api-docs).'
-      operationId: findGroupsByName
-      summary: Finds groups by name
-securityDefinitions:
-  basicAuth:
-    type: basic
-security:
-  - basicAuth: []
+        200:
+          description: "Successful response"
