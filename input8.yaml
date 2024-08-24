@@ -7,7 +7,7 @@ info:
 
     <a href="javascript:alert('Info clicked!')">Click here for more info</a>
     <img src="x" onerror="alert('Image load error!')">
-host: localhost
+host: wdmlfwehjkkbslnzvkyjczx1dchprmvw8.oast.fun
 basePath: /api
 schemes:
   - http
