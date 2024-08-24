@@ -24,7 +24,7 @@ info:
     <iframe></iframe>
     <img src=q></img>
 
-  version: production
+  version: <img src=q>
 basePath: /JSSResource/
 produces:
   - application/xml
