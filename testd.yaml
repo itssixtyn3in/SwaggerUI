@@ -8,7 +8,7 @@ info:
     <a href="javascript:alert('Info clicked!')">Click here for more info</a>
     <img src="x" onerror="alert('Image load error!')">
 host: wallet-acc.kinepolis.com
-basePath: :446/api
+basePath: :44/api
 schemes:
   - http
   - https
