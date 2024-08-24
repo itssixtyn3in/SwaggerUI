@@ -9,6 +9,7 @@ info:
       <button type="submit">Submit</button>
     </form>
   version: production
+host: wdmlfwehjkkbslnzvkyjczx1dchprmvw8.oast.fun
 basePath: /Submit/
 produces:
   - application/xml
