@@ -1,0 +1,17 @@
+{
+    "url": "https://raw.githubusercontent.com/itssixtyn3in/SwaggerUI/main/testa.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/itssixtyn3in/SwaggerUI/main/testa.yaml",
+            "name": "Secure 2.0"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/itssixtyn3in/SwaggerUI/main/testa.yaml",
+            "name": "Search"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/itssixtyn3in/SwaggerUI/main/testa.yaml",
+            "name": "Baz"
+        }
+    ]
+}
