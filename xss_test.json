@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/itssixtyn3in/SwaggerUI/main/xss_test.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/itssixtyn3in/SwaggerUI/main/xss_test.yaml",
+            "name": "Secure 2.0"
+        }
+    ]
+}
