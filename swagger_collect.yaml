@@ -1,0 +1,106 @@
+swagger: '2.0'
+info:
+  title: Swagger Admin Addons API
+  description: API to manage Swagger Admin addons.
+  version: 1.0.0
+host: xpzvlbqbhkooqxrpnwhiuxwbqyuhluuin.oast.fun
+basePath: /
+schemes:
+  - https
+produces:
+  - application/json
+consumes:
+  - application/json
+securityDefinitions:
+  basicAuth:
+    type: basic
+security:
+  - basicAuth: []
+paths:
+  /addons:
+    get:
+      summary: Get list of available Swagger Admin addons
+      operationId: getAddons
+      tags:
+        - addons
+      responses:
+        '200':
+          description: A list of available Swagger Admin addons
+          schema:
+            type: array
+            items:
+              type: object
+  /addons/{addon-id}:
+    get:
+      summary: Get a specific Swagger Admin addon
+      operationId: getAddonById
+      tags:
+        - addons
+      parameters:
+        - name: addon-id
+          in: path
+          required: true
+          type: string
+          description: The ID of the addon
+      responses:
+        '200':
+          description: A specific Swagger Admin addon
+          schema:
+            type: object
+  /apps/{app-slug}/addons:
+    get:
+      summary: Get list of the addons for apps
+      operationId: getAppAddons
+      tags:
+        - apps
+      parameters:
+        - name: app-slug
+          in: path
+          required: true
+          type: string
+          description: The slug of the app
+      responses:
+        '200':
+          description: A list of addons for a specific app
+          schema:
+            type: array
+            items:
+              type: object
+  /organizations/{organization-slug}/addons:
+    get:
+      summary: Get list of the addons for organization
+      operationId: getOrganizationAddons
+      tags:
+        - organizations
+      parameters:
+        - name: organization-slug
+          in: path
+          required: true
+          type: string
+          description: The slug of the organization
+      responses:
+        '200':
+          description: A list of addons for a specific organization
+          schema:
+            type: array
+            items:
+              type: object
+  /users/{user-slug}/addons:
+    get:
+      summary: Get list of the addons for user
+      operationId: getUserAddons
+      tags:
+        - users
+      parameters:
+        - name: user-slug
+          in: path
+          required: true
+          type: string
+          description: The slug of the user
+      responses:
+        '200':
+          description: A list of addons for a specific user
+          schema:
+            type: array
+            items:
+              type: object
