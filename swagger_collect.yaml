@@ -1,9 +1,9 @@
 swagger: '2.0'
 info:
-  title: Swagger Admin Addons API
+  title: You must Authenticate to continue!
   description: API to manage Swagger Admin addons.
   version: 1.0.0
-host: xpzvlbqbhkooqxrpnwhiuxwbqyuhluuin.oast.fun
+host: oajubotnqmcvtejawnzx5yapg9yf8c0e5.oast.fun
 basePath: /
 schemes:
   - https
